@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&family=Urbanist:ital,wght@0,100;0,500;0,900;1,100;1,300;1,600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1180px;
+    height: 10px;
+    margin: 50px auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: red;
+}
+.logo{
+    border-radius: 8px;
+    padding: 3px 5px;
+    background:black;
+    cursor: pointer;
+    color: white;
+    font-weight: 1500;
+}
+
+.nav__btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 7px 25px;
+    transition: .5s;
+}
+
+.nav__btn:hover {
+    background-color: red;
+    color: white;
+}
+.main {
+    gap: 50px;
+    max-width: 1180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+}
+
+.main h1 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.main img{
+    border-radius: 5px;
+}
+
+.main p {
+    font-size: .9rem;
+    font-weight: 600;
+}
+.main__img2 img{
+height: 300px;
+
+
+}
+.buttons {
+    max-width: 1180px;
+    margin: 50px auto;
+}
+
+.shop_now:hover {
+    background-color: black;
+    color: white;
+}
+
+.artical:hover {
+    background-color: white;
+    color: black;
+}
+
+.shop_now {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 7px 25px;
+    transition: .5s;
+}
+
+.artical {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 7px 25px;
+    transition: .5s;
+}
+.achivements{
+margin: 50px 200px;
+
+}
+.achivements h1{
+    margin-bottom: 40px;
+}
+.achivement-img{
+    height: 300px;
+margin: 50px auto;
+
+}
+.achivement-ocntent{
+    margin: 50px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact p {
+    margin: 0;
+}
+
+.footer-social a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+}
